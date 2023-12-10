@@ -1,0 +1,26 @@
+name: plaid
+version: 0.1.0
+authors:
+  - nobodywasishere
+description: |
+  
+crystal: ">= 1.4, < 2"
+license: MIT
+
+dependencies:
+  crest:
+    github: mamantoha/crest
+    version: ~> 1.3.7
+
+development_dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: ~> 1.0
+  ameba:
+    github: crystal-ameba/ameba
+  post_process:
+    github: cyangle/post_process
+    version: ~> 0.2.2
+  vcr:
+    github: spoved/vcr.cr
+    version: ~> 0.5.3
