@@ -3,7 +3,7 @@ version: 0.1.0
 authors:
   - nobodywasishere
 description: |
-  
+
 crystal: ">= 1.4, < 2"
 license: MIT
 
@@ -16,8 +16,6 @@ development_dependencies:
   kemal:
     github: kemalcr/kemal
     version: ~> 1.0
-  ameba:
-    github: crystal-ameba/ameba
   post_process:
     github: cyangle/post_process
     version: ~> 0.2.2
